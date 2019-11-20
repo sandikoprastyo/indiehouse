@@ -10,6 +10,7 @@ body {
 
 .warna {
     background-color: red;
+    height: 20px;
 }
 
 .logo {
@@ -57,4 +58,8 @@ body {
         background-color: rgb(186, 3, 2);
         height: 90px;
     }
+}
+
+.biru {
+    background-color: rgb(5, 16, 51);
 }

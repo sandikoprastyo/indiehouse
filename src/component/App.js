@@ -16,7 +16,7 @@ class App extends Component
     return (
       <Router>
         <div className="header">
-          <div className="container warna">
+          <div className="container warna p-3">
             <nav className="navbar navbar-expand-lg navbar-light warna">
               <Link to="#" className="navbar-brand"><img src={require('../logo/logo.png')} className="logo" alt="" /></Link>
               <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false">
@@ -26,7 +26,7 @@ class App extends Component
               <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav ml-auto">
                   <li className="nav-item dropdown">
-                    <Link to="#" className="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <Link to="#" className="nav-link dropdown-toggle text-white" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       PROMO</Link>
                     <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                       <Link to="#" className="dropdown-item">PROMO</Link>
@@ -34,7 +34,7 @@ class App extends Component
                     </div>
                   </li>
                   <li className="nav-item dropdown">
-                    <Link to="#" className="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" ariaexpanded="false">
+                    <Link to="#" className="nav-link dropdown-toggle text-white" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" ariaexpanded="false">
                       PAKET & ADD ON
                   </Link>
                     <div className="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -45,7 +45,7 @@ class App extends Component
                     </div>
                   </li>
                   <li className="nav-item">
-                    <Link to="#" className="nav-link">PUSAT BANTUAN</Link>
+                    <Link to="#" className="nav-link text-white">PUSAT BANTUAN</Link>
                   </li>
                 </ul>
               </div>
